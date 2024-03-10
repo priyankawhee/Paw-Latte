@@ -1,12 +1,8 @@
-body {
-    background-image: url('C:/DEVOPS_CAFE/Images/Login.png');
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-}
+/* Menu_Style.css */
 
-.taskbar {
-    background-color:#603b28; /* Background color of the taskbar */
+/* Navigation bar styles */
+.menu-taskbar {
+    background-color: #cfcecb; /* Background color of the taskbar */
     color: #d3c5bc; /* Text color of links */
     padding: 10px; /* Adjust as needed */
     position: fixed; /* Fixed position to keep it at the top */
@@ -15,19 +11,27 @@ body {
     z-index: 1000; /* Ensure it's on top of other content */
 }
 
-.taskbar ul {
+.menu-taskbar ul {
     list-style-type: none; /* Remove default bullet points */
     margin: 0;
     padding: 0;
     text-align: center; /* Center align the menu items */
 }
 
-.taskbar ul li {
+.menu-taskbar ul li {
     display: inline;
     margin-right: 20px; /* Adjust spacing between links */
 }
 
-.taskbar ul li a {
+.menu-taskbar ul li a {
     text-decoration: none; /* Remove underline from links */
-    color:#fff; /* Text color of links */
+    color: #603b28; /* Text color of links */
+}
+
+/* Background image */
+body {
+    background-image: url('C:/DEVOPS_CAFE/Images/Menu_bg.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
