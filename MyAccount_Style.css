@@ -1,29 +1,29 @@
 /* Navigation bar styles */
 .myaccount-taskbar {
-  background-color: #cfcecb; /* Background color of the taskbar */
-  color: #d3c5bc; /* Text color of links */
-  padding: 10px; /* Adjust as needed */
-  position: fixed; /* Fixed position to keep it at the top */
-  top: 0; /* Align taskbar to the top */
-  width: 100%; /* Full width */
-  z-index: 1000; /* Ensure it's on top of other content */
+  background-color: #cfcecb; 
+  color: #d3c5bc; 
+  padding: 10px;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  z-index: 1000;
 }
 
 .myaccount-taskbar ul {
-  list-style-type: none; /* Remove default bullet points */
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center; /* Center align the menu items */
+  text-align: center;
 }
 
 .myaccount-taskbar ul li {
   display: inline;
-  margin-right: 20px; /* Adjust spacing between links */
+  margin-right: 20px;
 } 
 
 .myaccount-taskbar ul li a {
-  text-decoration: none; /* Remove underline from links */
-  color: #603b28; /* Text color of links */
+  text-decoration: none;
+  color: #603b28;
 }
 
 
